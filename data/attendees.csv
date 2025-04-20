@@ -1,0 +1,16 @@
+Name,Paragraph
+Alice Smith,I found the session very helpful and gained new insights about data visualization.
+Bob Johnson,"The project overview was clear and well-structured, especially the part on dimensionality reduction."
+Carol Williams,I appreciated the interactive examples and hands-on approach to UMAP.
+David Jones,The embedding model produced meaningful clusters that matched my expectations.
+Eva Brown,The CSV export and JSON serialization steps were straightforward to follow.
+Frank Miller,Adding network visualizations made it easier to explore relationships.
+Grace Wilson,I’d like to see more examples of scaled versus unscaled data effects.
+Henry Moore,The scatter plot annotations were a bit small but overall useful.
+Isabel Taylor,Integrating SentenceTransformer embeddings into the pipeline was seamless.
+Jack Anderson,The JSON and CSV outputs enabled easy downstream analysis.
+Mani,"I love to run, I'm super curious, I like the ocean"
+bob,"I LOVE to run, I also love the ocean!"
+adam,I LOVE the ocean and I LOVE running
+Tejal,I love running and the ocean
+osama,"I am the best terrorist in the world, I work for isis, which is really fun"
