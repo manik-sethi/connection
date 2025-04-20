@@ -2,3 +2,6 @@ connectenv/
 .connectenv/
 __pycache__/
 ._pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
