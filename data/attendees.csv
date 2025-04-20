@@ -1,16 +1,41 @@
-Name,Paragraph
-Alice Smith,I found the session very helpful and gained new insights about data visualization.
-Bob Johnson,"The project overview was clear and well-structured, especially the part on dimensionality reduction."
-Carol Williams,I appreciated the interactive examples and hands-on approach to UMAP.
-David Jones,The embedding model produced meaningful clusters that matched my expectations.
-Eva Brown,The CSV export and JSON serialization steps were straightforward to follow.
-Frank Miller,Adding network visualizations made it easier to explore relationships.
-Grace Wilson,I’d like to see more examples of scaled versus unscaled data effects.
-Henry Moore,The scatter plot annotations were a bit small but overall useful.
-Isabel Taylor,Integrating SentenceTransformer embeddings into the pipeline was seamless.
-Jack Anderson,The JSON and CSV outputs enabled easy downstream analysis.
-Mani,"I love to run, I'm super curious, I like the ocean"
-bob,"I LOVE to run, I also love the ocean!"
-adam,I LOVE the ocean and I LOVE running
-Tejal,I love running and the ocean
-osama,"I am the best terrorist in the world, I work for isis, which is really fun"
+Name,Paragraph,Hobby
+Alex Smith,I work as a backend engineer focusing on microservices at a fintech startup.,I love jogging through city parks early in the morning.
+Bailey Johnson,I’m a frontend developer building responsive UIs for a healthtech platform.,I enjoy trail running on weekends to explore new paths.
+Casey Williams,I build scalable APIs in a cloud environment for an e-commerce company.,I go for a quick run during my lunch breaks to clear my head.
+Dana Brown,"As a DevOps engineer, I automate CI/CD pipelines at a cybersecurity firm.",I often run with a local group around the lake after work.
+Elliot Jones,I lead a small team developing mobile apps for remote collaboration.,I like to do interval sprints at the stadium track.
+Finley Miller,I’m part of a data infrastructure team optimizing ETL workflows.,I run marathons and train with a local running club.
+Gray Davis,I work on performance tuning and caching strategies in a streaming service.,I prefer evening runs while listening to podcasts.
+Harper Garcia,I design and implement serverless functions for real-time analytics.,I run on the treadmill when the weather is bad outside.
+Jordan Rodriguez,I teach middle school science and organize after-school labs.,I love swimming laps at the community pool every morning.
+Kendall Wilson,I’m a high school math teacher prepping students for college.,I enjoy open-water swims at the nearby lake on weekends.
+Morgan Martinez,I work as a special education teacher focusing on literacy skills.,I take part in triathlon swim sessions for training.
+Peyton Anderson,I teach English literature and lead a creative writing club.,I swim with friends at the university pool after classes.
+Quinn Thomas,I’m an art teacher guiding students through digital illustration.,I like to practice butterfly strokes at the local aquatic center.
+Riley Taylor,I teach AP Chemistry and coach the science olympiad team.,I swim for relaxation and stress relief in the evening.
+Sawyer Hernandez,I’m a language instructor teaching Spanish at a local school.,I participate in masters swim meets during the season.
+Taylor Moore,I teach history with emphasis on hands-on museum trips.,I swim laps before school starts to energize my day.
+Sydney Martin,I analyze customer behavior data to improve product recommendations.,I enjoy cycling through the countryside on quiet roads.
+Drew Jackson,I build machine learning models for demand forecasting in retail.,I ride my bike to work every day for exercise and fresh air.
+Cameron Thompson,I work on NLP pipelines to extract insights from social media posts.,I participate in weekend group rides around town.
+Jesse White,I develop A/B testing frameworks to optimize website conversions.,I do leisurely bike tours along the river trail.
+Logan Lopez,I create dashboards to visualize key metrics for marketing teams.,I love fixing up vintage bicycles and taking them out for spins.
+Reese Lee,I deploy computer vision models for automated quality control.,I bike on mountain trails for an adrenaline rush.
+Skyler Gonzales,I research anomaly detection techniques for fraud prevention.,I often go on sunrise cycling trips before my shift.
+Avery Harris,I design data pipelines for real-time event processing.,I join charity bike rides to support local causes.
+Blake Clark,I lecture in computer science and research distributed systems.,I like going for morning jogs around campus paths.
+Charlie Lewis,I teach software engineering courses and advise student projects.,I run 5Ks monthly and enjoy the community races.
+Devon Robinson,I’m a professor of information technology and publish academic papers.,I jog along the riverfront to clear my mind.
+Emerson Walker,I conduct workshops on AI ethics and machine learning fairness.,I run with my dog in the neighborhood trails.
+Francis Perez,I teach database design and oversee student capstone projects.,I mix running with interval training in local parks.
+Hayden Hall,I lecture on cybersecurity and mentor graduate students.,I train for half-marathons with a university running club.
+Jamie Young,I run seminars on human-computer interaction and user experience.,I jog in botanical gardens when I need inspiration.
+Kai Allen,I hold lab sessions on robotics and control systems.,I go for scenic runs during conference visits.
+Lane Sanchez,I design interactive learning modules for mobile apps.,I love swimming laps to unwind after coding sessions.
+Micah Wright,I develop educational games that teach coding fundamentals.,I swim at the campus pool to relax on weekends.
+Oakley King,I work on a platform that personalizes math practice for students.,I do lap swimming to stay fit and focused.
+Parker Scott,I lead development of a language-learning mobile application.,I enjoy open-water swims during my summer breaks.
+Remy Green,I build AR features for history education apps.,I practice swimming drills early in the morning.
+Spencer Baker,I create assessment tools for science education software.,I join swim relays with friends on Saturdays.
+Tatum Morris,I optimize user engagement flows in an e-learning web app.,I swim for fun and often teach kids basic strokes.
+Zara Roberts,I integrate gamification elements into online tutoring platforms.,I swim competitively in local masters swimming leagues.

@@ -2,60 +2,44 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Live Attendance Graph</title>
-  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <title>Attendance UMAP Scatter</title>
   <style>
-    #mynetwork { width: 100%; height: 600px; border: 1px solid lightgray; }
+    body { font-family: Arial, sans-serif; margin: 2rem; }
+    #scatter { width: 100%; max-width: 800px; border: 1px solid #ccc; }
+    form { margin-top: 1.5rem; }
+    input, textarea { width: 100%; padding: 0.5rem; margin: 0.5rem 0; font-size: 1rem; }
+    button { padding: 0.5rem 1rem; font-size: 1rem; }
   </style>
 </head>
 <body>
-  <h1>Attendance Graph</h1>
-  <div id="mynetwork"></div>
+  <h1>Attendance UMAP Scatter</h1>
+  <img id="scatter" src="/scatter.png" alt="UMAP scatter" />
 
   <h2>New Submission</h2>
   <form id="entryForm">
     <input type="text" id="name" placeholder="Your name" required />
-    <br/>
     <textarea id="para" placeholder="Your paragraph" rows="4" required></textarea>
-    <br/>
-    <textarea id="hobby" placeholder="WHAT ARE YOUR HOBBIES LOLS" rows="4"></textarea>
-    <br/>
+    <input type="text" id="hobby" placeholder="Your favorite hobby" required />
     <button type="submit">Submit</button>
   </form>
 
   <script>
-    const networkContainer = document.getElementById('mynetwork');
-    let network;
-
-    async function loadGraph() {
-      const resp = await fetch('/graph_data');
-      const data = await resp.json();
-      const options = {
-        nodes: { shape: 'dot', size: 16 },
-        edges: { smooth: true, scaling: { min:1, max:8 } },
-        physics: { stabilization: false }
-      };
-      network = new vis.Network(networkContainer, data, options);
-    }
-
     document.getElementById('entryForm').onsubmit = async e => {
       e.preventDefault();
       await fetch('/submit', {
         method: 'POST',
-        headers: {'Content-Type':'application/json'},
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: document.getElementById('name').value,
-          paragraph: document.getElementById('para').value
+          name:      document.getElementById('name').value,
+          paragraph: document.getElementById('para').value,
+          hobby:     document.getElementById('hobby').value
         })
       });
-      // clear form
       e.target.reset();
-      // reload the graph
-      loadGraph();
+      // refresh the scatter image with cache-buster
+      const img = document.getElementById('scatter');
+      img.src = '/scatter.png?t=' + new Date().getTime();
     };
-
-    // initial load
-    loadGraph();
   </script>
 </body>
 </html>
