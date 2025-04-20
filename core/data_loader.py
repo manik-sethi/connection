@@ -15,4 +15,4 @@ def read_attendees() -> List[Tuple[str,str, str]]:
 def append_attendee(name: str, paragraph: str, hobby: str):
     with open(csv_path, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow([name, paragraph])
+        writer.writerow([name, paragraph, hobby])
